@@ -78,3 +78,18 @@ p:hover {
 color:hsl(292, 16%, 49%)
 
 }
+
+@media screen and (max-width:375px) {
+   
+
+    .main-container {
+        padding: 0.5rem; 
+        margin: -6rem 2rem 1rem 1rem;
+        /* font-size: x-small; */
+    }
+
+    .img-upper img {
+        width: auto;
+        height: 13rem;
+    }
+}
